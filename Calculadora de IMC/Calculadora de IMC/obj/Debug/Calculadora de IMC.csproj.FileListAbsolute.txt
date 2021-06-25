@@ -1,0 +1,9 @@
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\bin\Debug\Calculadora de IMC.exe.config
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\bin\Debug\Calculadora de IMC.exe
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\bin\Debug\Calculadora de IMC.pdb
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\obj\Debug\Calculadora_de_IMC._1___Forms.FrmIMC.resources
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\obj\Debug\Calculadora_de_IMC.Properties.Resources.resources
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\obj\Debug\Calculadora de IMC.csproj.GenerateResource.cache
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\obj\Debug\Calculadora de IMC.csproj.CoreCompileInputs.cache
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\obj\Debug\Calculadora de IMC.exe
+D:\Repositório GIT\Calculadora de IMC\Calculadora de IMC\Calculadora de IMC\obj\Debug\Calculadora de IMC.pdb
