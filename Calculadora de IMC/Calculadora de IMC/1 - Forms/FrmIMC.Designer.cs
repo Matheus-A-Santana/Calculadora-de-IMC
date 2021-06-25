@@ -250,11 +250,11 @@ namespace Calculadora_de_IMC._1___Forms
             this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.roundedButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton1.ForeColor = System.Drawing.Color.White;
-            this.roundedButton1.Location = new System.Drawing.Point(86, 443);
+            this.roundedButton1.Location = new System.Drawing.Point(86, 471);
             this.roundedButton1.Name = "roundedButton1";
             this.roundedButton1.Size = new System.Drawing.Size(199, 45);
             this.roundedButton1.TabIndex = 14;
-            this.roundedButton1.Text = "Calcular";
+            this.roundedButton1.Text = "Calcular IMC";
             this.roundedButton1.UseVisualStyleBackColor = false;
             // 
             // FrmIMC
