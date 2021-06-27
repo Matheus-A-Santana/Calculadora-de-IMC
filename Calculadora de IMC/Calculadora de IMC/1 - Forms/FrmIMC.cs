@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculadora_de_IMC._2___Calculo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -76,6 +77,17 @@ namespace Calculadora_de_IMC._1___Forms
                 LblMen.ForeColor = Color.FromArgb(0, 192, 192);
                 LblWoman.ForeColor = Color.LightGray;
             }
+        }
+
+        private void BtnCalc_Click(object sender, EventArgs e)
+        {
+            CalculoIMC calculo = new CalculoIMC();
+
+            calculo.Calculo(int.Parse(TxtAge.Text),float.Parse(TxtStature.Text),float.Parse(TxtWeight.Text));
+
+            TxtAge.Clear();
+            TxtStature.Clear();
+            TxtWeight.Clear();
         }
     }
 }

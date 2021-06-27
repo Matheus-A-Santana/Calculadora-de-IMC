@@ -46,7 +46,7 @@ namespace Calculadora_de_IMC._1___Forms
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.ToggleSwitch = new Calculadora_de_IMC.ToggleButton();
-            this.roundedButton1 = new Calculadora_de_IMC.RoundedButton();
+            this.BtnCalc = new Calculadora_de_IMC.RoundedButton();
             this.PanelBar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -242,20 +242,21 @@ namespace Calculadora_de_IMC._1___Forms
             this.ToggleSwitch.UseVisualStyleBackColor = true;
             this.ToggleSwitch.CheckedChanged += new System.EventHandler(this.ToggleSwitch_CheckedChanged);
             // 
-            // roundedButton1
+            // BtnCalc
             // 
-            this.roundedButton1.BackColor = System.Drawing.Color.IndianRed;
-            this.roundedButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton1.FlatAppearance.BorderSize = 0;
-            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roundedButton1.ForeColor = System.Drawing.Color.White;
-            this.roundedButton1.Location = new System.Drawing.Point(86, 471);
-            this.roundedButton1.Name = "roundedButton1";
-            this.roundedButton1.Size = new System.Drawing.Size(199, 45);
-            this.roundedButton1.TabIndex = 14;
-            this.roundedButton1.Text = "Calcular IMC";
-            this.roundedButton1.UseVisualStyleBackColor = false;
+            this.BtnCalc.BackColor = System.Drawing.Color.IndianRed;
+            this.BtnCalc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnCalc.FlatAppearance.BorderSize = 0;
+            this.BtnCalc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCalc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCalc.ForeColor = System.Drawing.Color.White;
+            this.BtnCalc.Location = new System.Drawing.Point(86, 471);
+            this.BtnCalc.Name = "BtnCalc";
+            this.BtnCalc.Size = new System.Drawing.Size(199, 45);
+            this.BtnCalc.TabIndex = 14;
+            this.BtnCalc.Text = "Calcular IMC";
+            this.BtnCalc.UseVisualStyleBackColor = false;
+            this.BtnCalc.Click += new System.EventHandler(this.BtnCalc_Click);
             // 
             // FrmIMC
             // 
@@ -263,7 +264,7 @@ namespace Calculadora_de_IMC._1___Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(400, 550);
-            this.Controls.Add(this.roundedButton1);
+            this.Controls.Add(this.BtnCalc);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -309,6 +310,6 @@ namespace Calculadora_de_IMC._1___Forms
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private RoundedButton roundedButton1;
+        private RoundedButton BtnCalc;
     }
 }
