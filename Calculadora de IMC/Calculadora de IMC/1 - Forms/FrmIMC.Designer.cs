@@ -29,6 +29,7 @@ namespace Calculadora_de_IMC._1___Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmIMC));
             this.PanelBar = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.BtnMinimize = new System.Windows.Forms.Button();
@@ -45,8 +46,8 @@ namespace Calculadora_de_IMC._1___Forms
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.ToggleSwitch = new Calculadora_de_IMC.ToggleButton();
             this.BtnCalc = new Calculadora_de_IMC.RoundedButton();
+            this.ToggleSwitch = new Calculadora_de_IMC.ToggleButton();
             this.PanelBar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -227,21 +228,6 @@ namespace Calculadora_de_IMC._1___Forms
             this.label8.TabIndex = 13;
             this.label8.Text = "kg";
             // 
-            // ToggleSwitch
-            // 
-            this.ToggleSwitch.AutoSize = true;
-            this.ToggleSwitch.Location = new System.Drawing.Point(159, 106);
-            this.ToggleSwitch.MinimumSize = new System.Drawing.Size(80, 40);
-            this.ToggleSwitch.Name = "ToggleSwitch";
-            this.ToggleSwitch.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ToggleSwitch.OffToggleButton = System.Drawing.Color.Gainsboro;
-            this.ToggleSwitch.OnBackColor = System.Drawing.Color.MediumSlateBlue;
-            this.ToggleSwitch.OnToggleButton = System.Drawing.Color.WhiteSmoke;
-            this.ToggleSwitch.Size = new System.Drawing.Size(80, 40);
-            this.ToggleSwitch.TabIndex = 1;
-            this.ToggleSwitch.UseVisualStyleBackColor = true;
-            this.ToggleSwitch.CheckedChanged += new System.EventHandler(this.ToggleSwitch_CheckedChanged);
-            // 
             // BtnCalc
             // 
             this.BtnCalc.BackColor = System.Drawing.Color.IndianRed;
@@ -257,6 +243,21 @@ namespace Calculadora_de_IMC._1___Forms
             this.BtnCalc.Text = "Calcular IMC";
             this.BtnCalc.UseVisualStyleBackColor = false;
             this.BtnCalc.Click += new System.EventHandler(this.BtnCalc_Click);
+            // 
+            // ToggleSwitch
+            // 
+            this.ToggleSwitch.AutoSize = true;
+            this.ToggleSwitch.Location = new System.Drawing.Point(159, 106);
+            this.ToggleSwitch.MinimumSize = new System.Drawing.Size(80, 40);
+            this.ToggleSwitch.Name = "ToggleSwitch";
+            this.ToggleSwitch.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.ToggleSwitch.OffToggleButton = System.Drawing.Color.Gainsboro;
+            this.ToggleSwitch.OnBackColor = System.Drawing.Color.MediumSlateBlue;
+            this.ToggleSwitch.OnToggleButton = System.Drawing.Color.WhiteSmoke;
+            this.ToggleSwitch.Size = new System.Drawing.Size(80, 40);
+            this.ToggleSwitch.TabIndex = 1;
+            this.ToggleSwitch.UseVisualStyleBackColor = true;
+            this.ToggleSwitch.CheckedChanged += new System.EventHandler(this.ToggleSwitch_CheckedChanged);
             // 
             // FrmIMC
             // 
@@ -280,7 +281,9 @@ namespace Calculadora_de_IMC._1___Forms
             this.Controls.Add(this.ToggleSwitch);
             this.Controls.Add(this.PanelBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmIMC";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmIMC";
             this.Load += new System.EventHandler(this.FrmIMC_Load);

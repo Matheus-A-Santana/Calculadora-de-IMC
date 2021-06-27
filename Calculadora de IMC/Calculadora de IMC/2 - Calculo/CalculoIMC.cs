@@ -20,49 +20,49 @@ namespace Calculadora_de_IMC._2___Calculo
 
             if(imc < 16)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Magreza Grave'" + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Magreza Grave' - " + imc.ToString("N2");
                 frmResult.LblMGrave.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if(imc >= 16 && imc < 17)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Magreza moderada'" + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Magreza moderada' - " + imc.ToString("N2");
                 frmResult.LblMmoderada.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if(imc >= 17 && imc < 18.5)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Magreza leve'" + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Magreza leve' - " + imc.ToString("N2");
                 frmResult.LblMagreza.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if (imc >= 18.5 && imc  < 25)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado 'Saudável' " + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado 'Saudável' - " + imc.ToString("N2");
                 frmResult.LblSaudavel.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if (imc >= 25 && imc < 30)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado 'Sobrepeso' " + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado 'Sobrepeso' - " + imc.ToString("N2");
                 frmResult.LblSobrepeso.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if (imc >= 30 && imc < 35)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Obesidade' " + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Obesidade' - " + imc.ToString("N2");
                 frmResult.LblObesidade1.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if (imc >= 35 && imc < 40)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Obesidade severa' " + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Obesidade severa' - " + imc.ToString("N2");
                 frmResult.LblObesidade2.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
             else if(imc >= 40)
             {
-                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Obesidade mórbita' " + imc;
+                frmResult.LblResult.Text = "O seu Indice de massa corpôrea está em estado de 'Obesidade mórbita' - " + imc.ToString("N2");
                 frmResult.LblObesidade3.ForeColor = Color.IndianRed;
                 frmResult.Show();
             }
