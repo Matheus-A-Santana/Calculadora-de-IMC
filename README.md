@@ -3,7 +3,7 @@
 
 <h2>Descrição</h2>
 
->Calculadora de imc(Indice de massa corporêa), Recebe algumas informações do usuário e informa o imc que o usuário se encontra.
+>Calculadora de imc(Indice de massa corporal), Recebe algumas informações do usuário e informa o imc que o usuário se encontra.
 
 <h2>description</h2>
 
