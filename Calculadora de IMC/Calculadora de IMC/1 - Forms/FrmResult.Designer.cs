@@ -105,9 +105,9 @@ namespace Calculadora_de_IMC._1___Forms
             this.LblResult.ForeColor = System.Drawing.Color.LightGray;
             this.LblResult.Location = new System.Drawing.Point(14, 90);
             this.LblResult.Name = "LblResult";
-            this.LblResult.Size = new System.Drawing.Size(420, 21);
+            this.LblResult.Size = new System.Drawing.Size(413, 21);
             this.LblResult.TabIndex = 2;
-            this.LblResult.Text = "O seu Indice de massa corpoêa está em um estado Normal ";
+            this.LblResult.Text = "O seu Indice de massa corpôrea está em estado \'Saudável\'";
             // 
             // panel1
             // 

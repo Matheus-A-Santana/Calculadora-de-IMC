@@ -83,11 +83,18 @@ namespace Calculadora_de_IMC._1___Forms
         {
             CalculoIMC calculo = new CalculoIMC();
 
-            calculo.Calculo(int.Parse(TxtAge.Text),float.Parse(TxtStature.Text),float.Parse(TxtWeight.Text));
+            if(TxtAge.Text == "" && TxtStature.Text == "" && TxtWeight.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                calculo.Calculo(int.Parse(TxtAge.Text), float.Parse(TxtStature.Text), float.Parse(TxtWeight.Text));
 
-            TxtAge.Clear();
-            TxtStature.Clear();
-            TxtWeight.Clear();
+                TxtAge.Clear();
+                TxtStature.Clear();
+                TxtWeight.Clear();
+            }
         }
     }
 }
