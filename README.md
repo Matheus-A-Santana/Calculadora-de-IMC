@@ -8,3 +8,30 @@
 <h2>description</h2>
 
 >Calculator of imc(Body Mass Index), Receives some information from the user and informs the imc that the user is.
+
+
+<h3>Telas</h3>
+<h3>Screens</h3>
+
+>Descrição da imagem
+>
+>Imagem de entrada de dados
+
+>Image description
+>
+>Data entry image
+
+<img src="/Images/home_Screen.png" alt="home Sreen">
+
+>Descrição da imagem
+>
+>Resultado do imc do usuário
+
+>Image description
+>
+>User imc result
+<img src="/Images/Result_Screen.png" alt="result Sreen">
+
+>Desenvolvido em C#, Usando Windows forms
+>
+>Developed in C#, Using windows forms
