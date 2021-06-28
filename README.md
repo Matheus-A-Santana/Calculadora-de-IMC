@@ -35,3 +35,9 @@
 >Desenvolvido em C#, Usando Windows forms
 >
 >Developed in C#, Using windows forms
+
+<h5>Se vc não quiser clonar o projeto fique a vontade para testalo</h5>
+<h5>If you don't want to clone the project feel free to test it</h5>
+
+<a <href="If you don't want to clone the project feel free to test it" >Baixar Aqui</a>>
+
