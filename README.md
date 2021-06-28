@@ -36,8 +36,8 @@
 >
 >Developed in C#, Using windows forms
 
-<h5>Se vc não quiser clonar o projeto fique a vontade para testalo</h5>
-<h5>If you don't want to clone the project feel free to test it</h5>
+<h5>Se vc não quiser clonar o projeto fique a vontade para testalo o aquivo .exe</h5>
+<h5>If you don't want to clone the project feel free to test the .exe file</h5>
 
-<a <href="If you don't want to clone the project feel free to test it" >Baixar Aqui</a>>
+<a href="https://github.com/Matheus-A-Santana/Calculadora-de-IMC/raw/main/Calculadora%20de%20IMC/Calculadora%20de%20IMC/bin/Debug/Calculadora%20de%20IMC.exe" >Baixar Aqui</a>
 
